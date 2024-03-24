@@ -3,7 +3,7 @@ const cors = require('cors');
 const mongoose =require('mongoose');
 const userRoutes = require('./routes/userRoutes')
 const PORT = process.env.PORT || 5000;
-const DB = process.env.DB_NAME
+const DB = process.env.DB_NAMEE
 
 const app = express();
 app.use(express.json());
